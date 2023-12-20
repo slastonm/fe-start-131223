@@ -1,0 +1,85 @@
+h3{
+    background-color: green;
+    text-align: right;
+}
+
+/* h1{
+    background-color: rgb(11, 161, 148);
+    color: rgb(17, 17, 17);
+    padding: 40px;
+} */
+*{
+   /* text-decoration: underline;  */
+   /* Використовуємо * в 1 випадку зазвичай */
+}
+header{
+    background-color: gray;
+}
+footer{
+    background-color: blueviolet;
+}
+
+h4, h5, h6{
+  background-color: gold;
+    color:black;
+    text-align: center;
+}
+/* DRY Don't repeat yourself */
+/* h4{
+    background-color: gold;
+    color:black;
+    text-align: center;
+}
+h5{
+    background-color: gold;
+    color:black;
+    text-align: center;
+}
+h6{
+    background-color: gold;
+    color:black;
+    text-align: center;
+} */
+h4, h5, h6{
+    /* background-color: #ffffff; */
+    /* background-color: #fff; */
+    background-color: rgba(56, 62, 69, 0.5); 
+    /* background: red; */
+    /* alpha  0 - 1*/
+    /* background-color: rgb(56, 62, 69); */
+
+    /* background-color: yellowgreen; */
+    color:black;
+    text-align: center;
+    /* text-align: left; */
+    /* text-align: right; */
+    /* text-align: justify; */
+}
+
+header div p{
+    background-color: yellow;
+    color: black;
+}
+p{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+.btn{
+    display: inline-block;
+    padding: 40px;
+}
+.green{
+    background-color: rgb(26, 115, 238);
+}
+.yellow.btn{
+    background-color: yellow;
+    margin-left: 40px;
+}
+.content-right-align{
+    text-align: right;
+}
+#unique{
+    background-color: goldenrod;
+    padding: 50px;
+}
