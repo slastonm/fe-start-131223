@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+h1{
+    color: #8A6D2F;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px; /* 122.727% */
+}
+.p-text{
+    font-size: 23px;
+    text-align: center;
+}

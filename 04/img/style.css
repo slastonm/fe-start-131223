@@ -1,0 +1,93 @@
+ /* only block, inline-block inline-flex, grid , grid, flex */
+*{
+    box-sizing: border-box;
+}
+ p{
+    /* width: 400px; */
+    /* background-color: yellow; */
+    /* height: 250px; */
+    /* height: auto; */
+    /* padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 200px;
+    padding-left: 50px; */
+    /* padding: 50px 100px 200px 50px; */
+    /* padding: 50px 100px; */
+    /* padding: 50px; */
+
+    /* margin: ; */
+    /* margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+    margin-left: 400px; */
+    /* margin: 100px 150px 200px 250px; */
+    /* margin: 100px 150px; */
+    /* margin: 16px auto; */
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    font-size: 14px; */
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.content-block{
+    width: 900px;
+    margin: 0 auto;
+    font-size: 0;
+}
+button{
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    background: #A8863D; 
+    /* border: none; */
+    border: 3px solid black;
+    /* border-radius: 6px; */
+    border-radius: 0px 4px 4px 0px; 
+}
+.img-block{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    margin: 50px auto;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.img-block>img{
+    width: 250px;
+}
+.text-blcok{
+    margin: auto;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    font-size: 20px;
+    /* overflow: hidden; */
+    /* overflow: auto; */
+    /* overflow: scroll; */
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+header,section{
+    padding: 100px 0;
+    text-align: center;
+    width: 1400px;
+    margin: 0 auto;
+}
+header{
+    background-color: gray;
+}
+section{
+    background-color: orange;
+}
+section h1{
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+.content-wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
