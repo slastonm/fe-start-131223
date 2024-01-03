@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.content-wrapper{
+    background-color: yellow;
+    width: 800px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.left-block,
+.right-block{
+    padding: 20px;
+    text-align: center;
+    /* float: left; */
+    /* margin: 30px; */
+    width: 400px;
+}
+.left-block{
+    background-color: blue;
+    float: left;
+}
+.right-block{
+    background-color: gray;
+    float:right;
+}

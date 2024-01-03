@@ -1,0 +1,41 @@
+/* h1::before{
+    content: "*";
+    color: orange;
+    font-size: 40px;
+} */
+h1::before{
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 10px;
+    background-color: orange;
+    margin-right: 30px;
+    margin-bottom: 10px;    
+}
+/* h1::after{
+    content: "!!!";
+    color: green;
+    font-size: 30px;
+} */
+h1::after{
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 10px;
+    background-color: orange;
+    margin-left: 30px;
+    margin-bottom: 10px;    
+}
+h1:hover{
+    background-color: black;
+    color: white;
+}
+h1:hover span{
+    color:red;
+}
+h1:hover::after{
+    background-color: blueviolet;
+}
+span::after{
+    content: "span pseudo element";
+}
