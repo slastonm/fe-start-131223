@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.simple-bg{
+    width: 1600px;
+    height: 1200px;
+    margin: 0 auto;
+    background-color: yellow;
+    /* background-image: url("../img/avatar.png"),url("../img/1.webp"); */
+    background-image: url("../img/avatar.png");
+    /* background-color: yellow; */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-position: top 200px left 200px; */
+    /* background-position: bottom 200px left 240px; */
+    /* background-position: bottom 200px right 200px; */
+    /* background-position: bottom center; */
+    /* background-position:center; */
+    /* background-size: contain; */
+    /* background-size: cover; */
+    background-size: 200px;
+}
+.simple-bg:hover{
+    /* background-color: yellow; */
+}

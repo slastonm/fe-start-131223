@@ -1,0 +1,158 @@
+*{box-sizing: border-box;}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.40); 
+    text-align: center;
+    font-style: normal;
+    font-weight: 400; 
+    background-color: white;
+}
+/* header */
+header{
+    padding-top: 65px;
+    padding-bottom: 59px;
+}
+.wrapper{
+    width: 940px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    font-size: 0;
+}
+.logo-block,
+.social-block{
+    /* float: left; */
+    display: inline-block;
+    width: 470px;
+    font-size: 23px;
+    vertical-align: middle;
+}
+.logo-block{
+    text-align: left;
+}
+.social-block{
+    text-align: right;
+}
+.social-block a{
+    display: inline-block;
+    margin-right: 21px;
+    text-decoration: none;
+    font-size: 80px;
+    color: orchid;
+}
+.social-block a:hover{
+    color: rgb(187, 6, 181);
+}
+/* .social-block a.last{
+    margin-right: 0;
+} */
+
+.social-block a:last-child{
+    margin-right: 0;
+}
+/* main */
+.content-wrapper{
+    width: 806px;
+    margin: 0 auto;
+}
+.main{
+    background: #FAC960;
+    padding-top: 102px;
+    padding-bottom: 117px;
+}
+.main h1{
+    color: #8A6D2F;
+    font-size: 44px;
+    line-height: 54px; /* 122.727% */ 
+    margin-bottom: 40px;
+}
+.main input, .main button{
+    display: inline-block;
+    border: none;
+    font-size: 30px;
+    line-height: 54px;
+    height: 54px; 
+}
+.main input{
+    padding: 0 36px;
+    text-align: left;
+    background-color: white;
+    border-radius: 2px 0px 0px 2px; 
+    color: red; 
+    width: 550px;
+
+}
+.main input::placeholder{
+    color: #999; 
+}
+.main button{
+    padding-right: 40px;
+    padding-left: 36px;
+    color: white;
+    border-radius: 0px 2px 2px 0px; 
+    background: #A8863D; 
+}
+.main button:hover{
+    color: yellow;
+    background-color: blue;
+}
+
+/* contnet blocks */
+h3{
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 37px;
+    line-height: 36px; /* 97.297% */ 
+}
+p{
+    color: rgba(0, 0, 0, 0.40);
+    line-height: 30px; /* 130.435% */ 
+    margin: 32px 0;
+}
+.info.content-wrapper{
+    text-align: center;
+}
+.text-center{
+    text-align: center;
+}
+
+.info{
+    padding-top: 77px;
+    padding-bottom: 81px;
+    background: #F2F2F2;
+}
+.info p{
+    padding-bottom: 24px;
+}
+.mobile{
+    padding-top: 88px;
+    padding-bottom: 21px;
+}
+.share{
+    padding-top: 54px;
+    padding-bottom: 107px;
+    background: #FAC960;
+}
+.share button{
+    display: inline-block;
+    padding: 0 23px;
+    border-radius: 3px;
+    border: 1px solid #758696;
+    background: #FFF; 
+}
+footer{
+    padding: 81px 0;
+}
+.footer-logo{
+    margin-bottom: 24px;
+}
+.footer-link{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 22px;
+}
+.footer-link:first-child{
+    margin-left: 0;
+}
+.footer-link img{
+    width: 47px;
+}
