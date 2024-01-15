@@ -24,3 +24,28 @@
 .simple-bg:hover{
     /* background-color: yellow; */
 }
+.hover-bg:hover{
+    background-color: white;
+}
+.hover-bg:hover img{
+    width: 100px;
+}
+.hover-bg:hover h3{
+    color: red;
+}
+.fb{
+    width: 84px;
+    height: 84px;
+    border: none;
+    display: block;
+    margin-bottom: 50px;
+    background-image: url('../img/sprite-icon-29.jpg');
+    background-position: top 0 left 0;
+
+}
+.fb:hover{
+    background-position: top -84px left 0;
+}
+.fb.disabled-icon{
+    background-position: top -168px left 0;
+}

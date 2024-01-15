@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100%;
+    background-color: black;
+}
+.parralax{
+    padding-top: 250px;
+    background-image: url('bg.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+header, section{
+    padding: 50px;
+    background-color: gray;
+    margin-bottom: 200px;
+}
