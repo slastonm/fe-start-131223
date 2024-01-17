@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: orange;
+    padding: 5% 0;
+}
+.wrapper{
+    width: 58%;
+    margin: 0 auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    gap: 60px;
+    width: 100%;
+    background-color: gainsboro;
+}
+.logo{
+    width: 250px;
+    background-color: blueviolet;
+}
+
+p{
+    color:red;
+}
+/* @media screen and (min-width , max-width){
+    .wrapper{
+
+    }
+} */
+/* @media screen and (min-width:1000px){
+    .wrapper{
+        background-color: black;
+    }
+} */
+
+/* @media screen and (max-width:1000px){
+    .wrapper{
+        background-color: rgb(111, 110, 110);
+    }
+} */
+
+@media(max-width:1200px){
+    .wrapper{
+        width: 88%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;        
+        background-color: rgb(111, 110, 110);
+    }
+}
+@media(max-width:900px){
+    .wrapper{
+        width: 98%;     
+        background-color: rgb(8, 120, 12);
+    }
+    nav{
+        margin-top: 150px;
+        order: -1;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:600px){
+    header{
+        background-color: purple;
+    }
+}
+@media(600px<= width <= 800px){
+   body{
+    background-color: palevioletred;
+    min-height: 100vh;
+   }
+}
+
+@media print{
+    .logo, nav{
+        border: 2px solid black;
+    }
+}
+
+@media(min-aspect-ratio:19.5/9){
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+@media(max-aspect-ratio:19.5/9){
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
