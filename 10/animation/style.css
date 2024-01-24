@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+@keyframes first {
+   from{
+    background-color: blue;
+   }
+   to{
+    background-color: orange;
+   } 
+}
+@keyframes pro {
+    0%{
+     background-color: blue;
+     top: 0;
+     left: 0;
+    }
+    25%{
+        background-color: gray;
+        top: 0;
+        left: 500px;
+    }
+    50%{
+        background-color: green;
+        top: 500px;
+        left: 500px;
+    }
+    75%{
+        background-color: palevioletred;
+        top: 500px;
+        left: 0px;
+    }
+    100%{
+        background-color: orange;
+        top: 0px;
+        left: 0px;
+    } 
+ }
+.simple{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    /* animation-name: first; */
+    position: absolute;
+    animation-name: pro;
+    animation-duration: 3s;
+    /* animation-iteration-count: 3; */
+    animation-iteration-count: infinite;
+    
+}
+.simple.second{
+    animation-direction: reverse;
+    animation-duration: 5s;
+    /* animation-delay: 10s; */
+}
+@keyframes move {
+    to{
+        left: 0;
+    }
+    from{
+        left:1600px;
+    }
+}
+.animatio-type>div {
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    color: #fff;
+    background-color: rgb(54, 74, 11);
+    font-weight: bold;
+    position: relative;
+    animation-name: move;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.linear{
+    animation-timing-function: linear;
+}
+.ease{
+    animation-timing-function: ease;
+}
+.ease-in{
+    animation-timing-function: ease-in;
+}
+.ease-out{
+    animation-timing-function: ease-out;
+}
+.ease-in-out{
+    animation-timing-function: ease-in-out;
+}
+.custom{
+    animation-timing-function: cubic-bezier(1,-0.04,.43,.79);
+}
+.animate{
+    animation: name duration timing-function delay iteration-count direction ;
+}
+button{
+    border: 2px solid black;
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    transition: all 2s linear;
+}
+button:hover{
+    background-color: black;
+    color: yellow;
+    /* padding: 20px 60px; */
+    border-radius: 20px;
+}
+.scale:hover{
+    /* transform: ; */
+    /* scale:1.5 2; */
+    scale:0.5;
+    rotate: 270deg;
+}
+
+.scale:hover path{
+    fill:yellow;
+}
+.rotate:hover{
+    /* transform: rotate(45deg); */
+    rotate: -90deg;
+}
+.buttons{
+    padding: 150px;
+}
+.skew:hover{
+    transform: skew(-10deg, -35deg);
+}
+.translete:hover{
+    transform: translate(50px, 100px);
+}
+
+svg path{
+    fill: red;
+    stroke-width: 3;
+    stroke: black;
+}
